@@ -1,3 +1,24 @@
+.card-container{
+  display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.card{
+  background-color: #CCF5D3;
+}
+
+.red{
+  background-color:red; 
+}
+
+.green{
+  background-color:green; 
+}
+
+
+
+
 .App {
   text-align: center;
 }
